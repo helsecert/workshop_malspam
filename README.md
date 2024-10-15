@@ -2,17 +2,21 @@
 
 This workshop is a hands-on introduction to malspam-investigation.
 
-Included are real malwaresamples. Use appropriate caution. If you are unsure what appropriate caution is.. Ask a fried who does know, or stay away.
+Included are real malwaresamples. Use appropriate caution. If you are unsure what appropriate caution is.. Ask a fried who does know, or find out ptherwise before starting.
 
 ## How to use
 
-All cases use the same buildup. You start by unpacking stage1.7z. All stage1 samples are encrypted withthe password ´infected´.
-Decryption CAN be done as follows.
+All cases use the same buildup. You start by unpacking stage1.7z. All stage1 samples are encrypted withthe password ```infected```.
+Decryption can be done as follows.
+```
 $7z x stage1.7z -pinfected
+```
 
 ### Your mission (should you choose to accept it)
 
-The goal is to investigate the file within to find:
+The goal is to investigate the file within to determine:
+1. Is it malicious?
+If so find:
 1. IOCs
     1. URLS / IPs
     2. filepaths
@@ -30,11 +34,18 @@ It is advised to:
 
 If the folder contains a stage2.7z, og other variants they will always unpack with the downloadURL as the password.
 E.g. stage2.7z for putty.msi would unpack as follows:
-´$7z x stage2.7z -phttps://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi´
+```$7z x stage2.7z -phttps://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi```
 
 ## Intended order:
 1. demo
-    1. demo/powershell
-    2. demo/lnk
-    3. demo/doc
+    1. 1_powershell
+    2. 2_vbs
+    3. 3_lnk
+    4. 4_doc
+    5. 5_excel
+    6. HTA
+    7. bat
+    8. JS
+    9. onenote
+    10. ppt
 2. tasks
