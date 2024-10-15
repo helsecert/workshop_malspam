@@ -14,7 +14,9 @@ $7z x stage1.7z -pinfected
 
 ### Your mission (should you choose to accept it)
 
-The goal is to investigate the file within to find:
+The goal is to investigate the file within to determine:
+1. Is it malicious?
+If so find:
 1. IOCs
     1. URLS / IPs
     2. filepaths
@@ -36,7 +38,14 @@ E.g. stage2.7z for putty.msi would unpack as follows:
 
 ## Intended order:
 1. demo
-    1. demo/powershell
-    2. demo/lnk
-    3. demo/doc
+    1. 1_powershell
+    2. 2_vbs
+    3. 3_lnk
+    4. 4_doc
+    5. 5_excel
+    6. HTA
+    7. bat
+    8. JS
+    9. onenote
+    10. ppt
 2. tasks
