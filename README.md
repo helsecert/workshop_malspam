@@ -7,7 +7,7 @@ Included are real malwaresamples. Use appropriate caution. If you are unsure wha
 ## Tools and setup
 
 ### Virtual machine
-The demonstrations in the workshop will be based on a (Remnux VM)[https://remnux.org/]. When analysing anything malicious using a VM is best practice, and Remnux has the added benefit of being fairly light weight, and packed with many useful tools.
+The demonstrations in the workshop will be based on a [Remnux VM](https://remnux.org/). When analysing anything malicious using a VM is best practice, and Remnux has the added benefit of being fairly light weight, and packed with many useful tools.
 
 ### Tools
 In the tooling category the demonstrations will be based on the following (non-exhaustive) list of tools
