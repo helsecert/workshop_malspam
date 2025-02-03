@@ -4,6 +4,20 @@ This workshop is a hands-on introduction to malspam-investigation.
 
 Included are real malwaresamples. Use appropriate caution. If you are unsure what appropriate caution is.. Ask a fried who does know, or find out ptherwise before starting.
 
+## Tools and setup
+
+### Virtual machine
+The demonstrations in the workshop will be based on a (Remnux VM)[https://remnux.org/]. When analysing anything malicious using a VM is best practice, and Remnux has the added benefit of being fairly light weight, and packed with many useful tools.
+
+### Tools
+In the tooling category the demonstrations will be based on the following (non-exhaustive) list of tools
+- [VS Code](https://code.visualstudio.com/) (We want an editor with syntax highlighting)
+- [7zip](https://www.7-zip.org/) included in Remnux
+- [oletolls](https://github.com/decalage2/oletools) included in Remnux
+- [lnkinfo](https://github.com/libyal/liblnk/blob/main/lnktools/lnkinfo.c)
+
+It's possible to find substitutes for all these tools, but the demonstrations will be based on using them.
+  
 ## How to use
 
 All cases use the same buildup. You start by unpacking stage1.7z. All stage1 samples are encrypted withthe password ```infected```.
