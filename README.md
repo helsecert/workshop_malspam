@@ -1,4 +1,4 @@
-# workshop_malspam_First_TC_Oslo_2024
+# workshop_malspam by Norwegian CERT for health and municipalities
 
 This workshop is a hands-on introduction to malspam-investigation.
 
