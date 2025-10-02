@@ -25,7 +25,13 @@ Amlost all cases use the same Setup. You start by unpacking stage1.7z. All stage
 Decryption can be done as follows.
 ```
 $7z x stage1.7z -pinfected
+
 ```
+If stage2.7z, or something similar exists the password will always be the downloadURL.
+E.g. stage2.7z for putty.msi would unpack as follows:
+```$7z x stage2.7z -phttps://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi```
+
+One of the tasks works with ClickFix samples. The infratructure for that requires alloflisting of IPs. If samples appear down tell an instructor.
 
 ### Your mission (should you choose to accept it)
 
@@ -47,17 +53,12 @@ It is advised to:
 - hash files before starting analysis. (keeps a clear trail, and helps detect unwanted alterations)
 - Take note of steps taken and commands run for repeatability. The notes should be kept while working to avoid having to retrace steps a lot.
 
-### Follow on stages
-
-If stage2.7z, or something similar exists the password will always be the downloadURL.
-E.g. stage2.7z for putty.msi would unpack as follows:
-```$7z x stage2.7z -phttps://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi```
 
 ## Intended order:
 1. demo
     1. 1_powershell/1,2,3,4 
-    2. 2_vbs
-    3. 3_lnk
+    2. 2_vbs/1,2
+    3. 3_lnk/
     4. 4_doc
     5. 5_EML
     5. 6_excel
