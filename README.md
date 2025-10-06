@@ -24,12 +24,12 @@ It's possible to find substitutes for all these tools, but the demonstrations wi
 Amlost all cases use the same Setup. You start by unpacking stage1.7z. All stage1 samples are encrypted with the password `infected`.
 Decryption can be done as follows.
 ```
-$7z x stage1.7z -p infected
+$7z x stage1.7z -pinfected
 
 ```
 If stage2.7z, or something similar exists the password will always be the downloadURL.
 E.g. stage2.7z for putty.msi would unpack as follows:
-```$7z x stage2.7z -p https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi```
+```$7z x stage2.7z -phttps://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi```
 
 One of the tasks works with ClickFix samples. The infratructure for that requires alloflisting of IPs. If samples appear down tell an instructor.
 
